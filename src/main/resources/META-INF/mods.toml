@@ -9,19 +9,19 @@ modLoader="javafml" #mandatory
 loaderVersion="[41,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
-license="MIT License"
+license="Custom"
 # A URL to refer people to when problems occur with this mod
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId="fabridge" #mandatory
+modId="mercury" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
-version="0.0.4-R-1.20.1" #mandatory
+version="0.0.1-R-1.20.1" #mandatory
 # A display name for the mod
-displayName="Fabridge" #mandatory
+displayName="Mercury" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -31,7 +31,7 @@ logoFile="logo.png" #optional
 # A text field displayed in the mod UI
 # credits="Thanks to Halo Flood for inspiration." #optional
 # A text field displayed in the mod UI
-authors="ASEStefan, TeamAbyssal" #optional
+authors="ASEStefan" #optional
 # Display Test controls the display for your mod in the server connection screen
 # MATCH_VERSION means that your mod will cause a red X if the versions on client and server differ. This is the default behaviour and should be what you choose if you have server and client elements to your mod.
 # IGNORE_SERVER_VERSION means that your mod will not cause a red X if it's present on the server but not on the client. This is what you should use if you're a server only mod.
@@ -42,13 +42,10 @@ authors="ASEStefan, TeamAbyssal" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Fabridge is a core mod that does stuff on Forge with the trick that it works like Fabric. It can be useful for certain events and much more,
-you can sync the client and the server this way without doing too much, and then writing values that will later on be saved on both the client and the server. It also comes with custom events
-and the niche ability to register stuff elsewhere which is also possible on the classic forge, but with this it's exactly like you would do it on fabric. It's very useful for people that want to port
-a mod from fabric to forge as well. It's mainly used in our projects that are based on some Fabric code, even though they are on Forge, weird conception I know.
+Mercury is a new core library mod developed by Team Abyssal. It's a compression and merge of our two previous api mods, Fabridge & ClockworkLib and more, created to reduce mods needed to play a mod of ours and also to be easier to maintain, code/debug and use with ease for future projects. The name is a reference to the smallest planet in our solar system and the logo of the mod is a pixelated shot of the planet.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.fabridge]] #optional
+[[dependencies.mercury]] #optional
 # the modid of the dependency
 modId="forge" #mandatory
 # Does this dependency have to exist - if not, ordering below must be specified
@@ -60,7 +57,7 @@ ordering="NONE"
 # Side this dependency is applied on - BOTH, CLIENT or SERVER
 side="BOTH"
 # Here's another dependency
-[[dependencies.fabridge]]
+[[dependencies.mercury]]
 modId="minecraft"
 mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version

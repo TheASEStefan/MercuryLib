@@ -8,9 +8,9 @@ plugins {
 }
 
 
-version = '0.0.4-R-1.20.1'
-group = 'net.fabridge.mod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'fabridge'
+version = '0.0.1-R-1.20.1'
+group = 'net.mercury.mercurymod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'mercury'
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -55,10 +55,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'fabridge'
+            property 'forge.enabledGameTestNamespaces', 'mercury'
 
             mods {
-                fabridge {
+                mercury {
                     source sourceSets.main
                 }
             }
@@ -75,7 +75,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'fabridge'
+            property 'forge.enabledGameTestNamespaces', 'mercury'
 
 
 
@@ -83,7 +83,7 @@ minecraft {
 
 
             mods {
-                fabridge {
+                mercury {
                     source sourceSets.main
                 }
             }
@@ -99,10 +99,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'fabridge'
+            property 'forge.enabledGameTestNamespaces', 'mercury'
 
             mods {
-                fabridge {
+                mercury {
                     source sourceSets.main
                 }
             }
@@ -116,10 +116,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'fabridge', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'mercury', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                fabridge {
+                mercury {
                     source sourceSets.main
                 }
             }
