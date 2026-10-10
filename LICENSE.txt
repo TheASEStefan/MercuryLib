@@ -1,21 +1,7 @@
-MIT License
+Custom License
 
-Copyright (c) 2024 ASEStefan
+LICENSE BY ASESTEFAN.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Any acts of copying / stealing our work, such as the models, textures, or other assets will fall under the category of punishment liable. However code can be shared and taken from us freely with or without crediting us. However lying about taking the code or not can also fall under the category of punishment liable in different circumstances. Taking our ideas is also considered a copyright infringement in some cases, but we shall not take any steps further into a punishment if it's this unimportant. All mods under this license fall in the category of "usable" in modpacks without any proper credit needed or anything like that.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+YOU CAN'T HOWEVER MAKE EXACT COPIES OF THIS SOFTWARE AND DISTRIBUTE IT ONLINE UNDER YOUR NAME AND CALL IT YOURS, AND IT DOESN'T MATTER IF YOU GET MONEY FROM IT OR NOT. FOR ANY ACTS OF INFRINGEMENT IMMORALITY WE WILL BE TAKING MEASURES AND TRY TO TAKE THE SOFTWARE CLONE DOWN! IN NO EVENT SHALL THE AUTHORS OF THE PIECES OF WORK BE RESPONSIBLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.
